@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comic-book", "comic-book.csproj", "{6B49EC49-CA79-4E32-BA78-74BDF1B9C494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "comic-book.Tests", "comic-book.Tests\comic-book.Tests.csproj", "{6EE87214-91D9-4584-B6DF-5194CC184985}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B49EC49-CA79-4E32-BA78-74BDF1B9C494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B49EC49-CA79-4E32-BA78-74BDF1B9C494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B49EC49-CA79-4E32-BA78-74BDF1B9C494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B49EC49-CA79-4E32-BA78-74BDF1B9C494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE87214-91D9-4584-B6DF-5194CC184985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE87214-91D9-4584-B6DF-5194CC184985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE87214-91D9-4584-B6DF-5194CC184985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE87214-91D9-4584-B6DF-5194CC184985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
