@@ -9,13 +9,19 @@ namespace comicbook.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Detail()
         {
-            var mvcName = typeof(Controller).Assembly.GetName();
-            var isMono = Type.GetType("Mono.Runtime") != null;
-
-            ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
-            ViewData["Runtime"] = isMono ? "Mono" : ".NET";
+            ViewBag.SeriesTitle = "The Amazing Spider-Man";
+            ViewBag.IssueNumber = 700;
+            ViewBag.Description = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives...<strong>will Peter Parker?</strong></p>";
+            ViewBag.Artists = new string[]
+            {
+                "Script: Dan Slott",
+                "Pencils: Humberto Ramos",
+                "Inks: Victor Olazaba",
+                "Colors: Edgar Delgado",
+                "Letters: Chris Eliopoulos"
+            };
 
             return View();
         }
